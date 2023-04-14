@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <title>Productos</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+        <nav class="navbar bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="PyppyStore.html">
+              <img src="logo2.PNG" alt="PuppyStore" width="30" height="24">
+            </a>
+          </div>
+        </nav>
+    </nav>
+
+    <form class="form-horizontal">
+    <fieldset>
+
+    <!-- Text input-->
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="product_id">ID del producto</label>  
+    <div class="col-md-4">
+    <input id="product_id" name="product_id" placeholder="ID del producto" class="form-control input-md" required="" type="text">
+        
+    </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="product_name">Nombre del producto</label>  
+    <div class="col-md-4">
+    <input id="product_name" name="product_name" placeholder="Nombre del producto" class="form-control input-md" required="" type="text">
+        
+    </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="product_name_fr">Descripcion del producto</label>  
+    <div class="col-md-4">
+    <input id="product_name_fr" name="product_name_fr" placeholder="Descripcion del producto" class="form-control input-md" required="" type="text">
+        
+    </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="available_quantity">Stock</label>  
+    <div class="col-md-4">
+    <input id="available_quantity" name="available_quantity" placeholder="Stock" class="form-control input-md" required="" type="text">
+        
+    </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="product_weight">Peso del producto</label>  
+    <div class="col-md-4">
+    <input id="product_weight" name="product_weight" placeholder="Peso del producto" class="form-control input-md" required="" type="text">
+        
+    </div>
+    </div>
+
+    <!-- Text input-->
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="percentage_discount">Porcentaje de descuento</label>  
+    <div class="col-md-4">
+    <input id="percentage_discount" name="descuento" placeholder="Descuento" class="form-control input-md" required="" type="text">
+        
+    </div>
+    </div>
+
+    <!-- File Button --> 
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="filebutton">Imagen</label>
+    <div class="col-md-4">
+        <input id="filebutton" name="filebutton" class="input-file" type="file">
+    </div>
+    </div>
+
+    <!-- Button -->
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="singlebutton">Subir producto</label>
+    <div class="col-md-4">
+        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Subir</button>
+    </div>
+    </div>
+
+    </fieldset>
+    </form>
+
+</body>
+</html>
